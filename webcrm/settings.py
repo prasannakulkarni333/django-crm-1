@@ -24,22 +24,22 @@ SECRET_KEY = 'j1c=6$s-dh#$ywt@(q4cm=j&0c*!0x!e-qm6k1%yoliec(15tn'
 ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 # Database
-DATABASES = {
-    'default': {
-        # for MySQl
-        'ENGINE': 'django.db.backends.mysql',
-        'PORT': '3306',
+# DATABASES = {
+#     'default': {
+#         # for MySQl
+#         'ENGINE': 'django.db.backends.mysql',
+#         'PORT': '3306',
 
-        # for PostgreSQL
-        # "ENGINE": "django.db.backends.postgresql",
-        # 'PORT': '5432',   # for PostgreSQL
+#         # for PostgreSQL
+#         # "ENGINE": "django.db.backends.postgresql",
+#         # 'PORT': '5432',   # for PostgreSQL
 
-        'NAME': 'crm_db',
-        'USER': 'crm_user',
-        'PASSWORD': 'crmpass',
-        'HOST': 'localhost',
-    }
-}
+#         'NAME': 'crm_db',
+#         'USER': 'crm_user',
+#         'PASSWORD': 'crmpass',
+#         'HOST': 'localhost',
+#     }
+# }
 
 EMAIL_HOST = '<specify host>'   # 'smtp.example.com'
 EMAIL_HOST_PASSWORD = '<specify password>'
